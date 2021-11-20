@@ -40,7 +40,9 @@
                     <td> <img class="small-flag" [src]="pais.flag"> </td>
                     <td> {{ pais.name }}</td>
                     <td> {{ pais.population }}</td>
-                    <th></th>
+                    <td> 
+                        [routerLink]="['/pais', pais.alpha2Code]"
+                    </td>
                 </tr>
                   
             </tbody>
