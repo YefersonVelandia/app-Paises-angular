@@ -27,9 +27,8 @@ export class PorPaisComponent {
           this.paises = paises;
 
         }, (err)=> {
-
-          this.paises = [];
           this.hayError = true;
+          this.paises = [];          
         })
   }
   
